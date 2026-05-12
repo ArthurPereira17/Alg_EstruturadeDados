@@ -1,7 +1,7 @@
 package UNI2.ListasExercicio.L07;
 
-import UNI2.Aulas.Aula04_08.ArvoreBinaria;
-import UNI2.Aulas.Aula04_08.NoArvoreBinaria;
+import UNI2.Aulas.Aula_08_04.ArvoreBinaria;
+import UNI2.Aulas.Aula_08_04.NoArvoreBinaria;
 
 public class ArvoreBinariaTest {
     public static void main(String[] args) {
