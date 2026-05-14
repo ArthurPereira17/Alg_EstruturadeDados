@@ -1,5 +1,3 @@
-import Aulas.Aula_06_05.Aluno;
-
 public class App {
     public static void main(String[] args) {
         Aluno umAluno;
