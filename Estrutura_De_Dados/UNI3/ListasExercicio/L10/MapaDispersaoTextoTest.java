@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import Aulas.Aula_13_05.*;
 
 public class MapaDispersaoTextoTest {
-
     private MapaDispersao<String, Veiculo> mapa;
 
     private Veiculo v1;
