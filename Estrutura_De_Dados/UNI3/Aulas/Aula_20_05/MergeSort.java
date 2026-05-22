@@ -50,4 +50,4 @@ public class MergeSort<T extends Comparable<T>> extends OrdenacaoAbstract<T> {
                 getInfo()[i++] = direita[cDir++];
             }
         }
-    }
+}
