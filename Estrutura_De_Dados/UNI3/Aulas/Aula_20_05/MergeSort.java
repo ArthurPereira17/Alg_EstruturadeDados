@@ -21,11 +21,11 @@ public class MergeSort<T extends Comparable<T>> extends OrdenacaoAbstract<T> {
         int tamEsquerda = meio - inicio + 1;
         T[] esquerda = (T[]) new Comparable[tamEsquerda];
         for(int i = 0; i < tamEsquerda; i++){
-            esquerda[i] = getInfo()[inicio + 1];
+            esquerda[i] = getInfo()[inicio + i];
         }
 
         int tamDireita = fim - meio;
-        T[] direira = (T[]) new Comparable[tamDireita];
+        T[] direita = (T[]) new Comparable[tamDireita];
         for(int i = 0; i < tamDireita; i++){
             direita[i] = getInfo()[meio + 1 + i];
         }
@@ -36,12 +36,11 @@ public class MergeSort<T extends Comparable<T>> extends OrdenacaoAbstract<T> {
 
         while(cEsq < tamEsquerda && cDir < tamDireita){
             if (esquerda[cEsq].compareTo(direita[cDir]) <= 0){
-                getInfo()[i] = esquerda[cEsq++];
+                getInfo()[i++] = esquerda[cEsq++];
             } else{
-                getInfo()[i] = direita[cDir++];
+                getInfo()[i++] = direita[cDir++];
             }
-            i++;
-            }
+        }
 
             while (cEsq < tamEsquerda){
                 getInfo()[i++] = esquerda[cEsq++];
