@@ -1,4 +1,4 @@
-package Aulas.Aula_20_05;
+package UNI4.Aula_20_05;
 
 public class QuickSort<T extends Comparable<T>> extends OrdenacaoAbstract<T> {
 

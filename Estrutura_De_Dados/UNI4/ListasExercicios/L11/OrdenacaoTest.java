@@ -1,9 +1,9 @@
-package ListasExercicio.L11;
+package UNI4.ListasExercicios.L11;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import Aulas.Aula_20_05.*;
+import UNI4.Aula_20_05.*;
 
 public class OrdenacaoTest {
     // Vetor esperado após ordenação
