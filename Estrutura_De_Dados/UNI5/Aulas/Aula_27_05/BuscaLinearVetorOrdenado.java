@@ -1,5 +1,3 @@
-package UNI5.Aulas.Aula_27_05;
-
 public class BuscaLinearVetorOrdenado<T extends Comparable<T>> extends BuscaAbstract<T> {
 
     @Override

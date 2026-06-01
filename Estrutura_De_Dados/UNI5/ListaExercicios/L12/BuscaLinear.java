@@ -1,3 +1,4 @@
+package UNI5.ListaExercicios.L12;
 public class BuscaLinear<T> extends BuscaAbstract<T> {
 
     @Override

@@ -1,5 +1,4 @@
-import UNI5.ListaExercicios.L12.NoArvoreBinaria;
-
+package UNI5.ListaExercicios.L12;
 public abstract class ArvoreBinariaAbstract<T> {
 
     private NoArvoreBinaria<T> raiz;

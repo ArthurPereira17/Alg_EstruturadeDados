@@ -1,3 +1,4 @@
+package UNI5.ListaExercicios.L12;
 public abstract class BuscaAbstract<T> {
     private T[] info;
 

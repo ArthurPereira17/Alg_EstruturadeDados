@@ -1,4 +1,4 @@
-import UNI5.ListaExercicios.L12.NoArvoreBinaria;
+package UNI5.ListaExercicios.L12;
 
 public class ArvoreBinariaBusca<T extends Comparable<T>>
         extends ArvoreBinariaAbstract<T> {

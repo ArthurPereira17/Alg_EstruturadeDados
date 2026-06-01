@@ -1,6 +1,4 @@
-import UNI5.ListaExercicios.L12.ArvoreBinariaAbstract;
-import UNI5.ListaExercicios.L12.NoArvoreBinaria;
-
+package UNI5.ListaExercicios.L12;
 public class ArvoreBinaria<T> extends ArvoreBinariaAbstract<T> {
 
     @Override
